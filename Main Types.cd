@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Gramma.Vectors.SparseVector">
+    <Position X="2.5" Y="1" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Gramma.Vectors.SparseVector.Tensor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SparseVector.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Class Name="Gramma.Vectors.SparseVector.Entry">
+        <Compartments>
+          <Compartment Name="Fields" Collapsed="true" />
+        </Compartments>
+        <TypeIdentifier>
+          <NewMemberFileName>SparseVector.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="Gramma.Vectors.SparseVector.Enumerator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SparseVector.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CCAAAABMEEIoCBBAaQUBIACEACAAAAMAAAAAEGBEARA=</HashCode>
+      <FileName>SparseVector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Gramma.Vectors.Vector">
+    <Position X="6.25" Y="1" Width="3" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Gramma.Vectors.Vector.Tensor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Vector.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CCAAAADHEEIoCBBEaQ0DAIHAEACAAAMAAgAICGJEARA=</HashCode>
+      <FileName>Vector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Gramma.Vectors.IVector">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAEgUIACAAACAICAAAAAAAAAAIAAAAEACAAABA=</HashCode>
+      <FileName>IVector.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
