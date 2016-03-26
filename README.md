@@ -5,6 +5,10 @@ Both flavors of vectors, `Vector` and `SparseVector`, have math operators define
 
 Dense vector operations become parallelized when the dimension exceeds a certain threshold, which is 32768 by default and can be set by specifying the `ParallelismDimensionThreshold` attribute in a `VectorsConfigurationSection` defined in the application's config file. The threshold can also be defined programmatically by setting the `Vector.ParallelismDimensionThreshold` static property.
 
+The above are summarized in the following UML diagram.
+
+![Vectors class diagram](http://s17.postimg.org/imk0wke4f/Vectors.png)
+
 For example usage, please take a look at the [first example](https://github.com/grammophone/Gramma.Optimization/wiki/1.-A-simple-example) and the [second example](https://github.com/grammophone/Gramma.Optimization/wiki/2.-Another-example) of the [Gramma.Optimization](https://github.com/grammophone/Gramma.Optimization) library which relies on this one.
 
 This library has no dependencies.
