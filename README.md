@@ -3,7 +3,7 @@ This .NET library provides dense and sparse vectors and matrices defined as abst
 
 Both flavors of vectors, `Vector` and `SparseVector`, have math operators defined in order to offer clean vector expressions in code. The operators are addition, subtraction, negation, multiplication and division by scalar, inner and outer products. The dense `Vector` is also implicitly convertible from `Double[]`. Both types of vectors work with tensor types defined as delegate types `Vector.Tensor` and `SparseVector.Tensor` respectively.
 
-Dense vector operations become parallelized when the dimension exceeds a certain threshold, which is 32768 by default and can be set by specifying the `ParallelismDimensionThreshold` attribute in a `VectorsConfigurationSection` defined in the application's config file. The threshold can also be defined programmatically by setting the `Vector.ParallelismDimensionThreshold` static property.
+Dense vector operations become parallelized when the dimension exceeds a certain threshold, which is 32768 by default and can be set by specifying the `parallelismDimensionThreshold` attribute in a `VectorsConfigurationSection` defined in the application's config file. The threshold can also be defined programmatically by setting the `Vector.ParallelismDimensionThreshold` static property.
 
 The above are summarized in the following UML diagram.
 
