@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections.Concurrent;
 
-namespace Gramma.Vectors
+namespace Grammophone.Vectors
 {
 	/// <summary>
 	/// Extension methods for <see cref="IVector"/>.

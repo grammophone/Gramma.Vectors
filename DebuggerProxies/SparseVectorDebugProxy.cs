@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Gramma.Vectors.DebuggerProxies
+namespace Grammophone.Vectors.DebuggerProxies
 {
 	/// <summary>
 	/// Debug proxy for <see cref="SparseVector"/>.

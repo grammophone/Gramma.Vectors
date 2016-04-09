@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Configuration;
 
-namespace Gramma.Vectors
+namespace Grammophone.Vectors
 {
 	/// <summary>
 	/// Definition for configuration section "vectorsConfiguration".

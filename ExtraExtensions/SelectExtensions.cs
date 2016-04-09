@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Gramma.Vectors.ExtraExtensions
+namespace Grammophone.Vectors.ExtraExtensions
 {
 	/// <summary>
 	/// Extensions for producing vectors via Select.

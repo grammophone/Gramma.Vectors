@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Gramma.Vectors
+namespace Grammophone.Vectors
 {
 	/// <summary>
 	/// Represents common functionality present to all vector implementations.

@@ -10,7 +10,7 @@ using System.Threading;
 using System.Globalization;
 using System.Configuration;
 
-namespace Gramma.Vectors
+namespace Grammophone.Vectors
 {
 	/// <summary>
 	/// Algebraic vector with elements of type double.

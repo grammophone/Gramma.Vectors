@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Runtime.Serialization;
 
-namespace Gramma.Vectors
+namespace Grammophone.Vectors
 {
 	/// <summary>
 	/// A vector which is efficient for sparse entries.

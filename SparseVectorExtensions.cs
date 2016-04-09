@@ -5,7 +5,7 @@ using System.Text;
 using System.Collections.Concurrent;
 using System.Threading.Tasks;
 
-namespace Gramma.Vectors
+namespace Grammophone.Vectors
 {
 	/// <summary>
 	/// Extension methods for collections containing <see cref="SparseVector"/> elements.
