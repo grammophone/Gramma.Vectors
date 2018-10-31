@@ -63,7 +63,12 @@
     <Compile Include="VectorsConfigurationSection.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="LICENSE.md" />
     <None Include="Main Types.cd" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Vectors.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
