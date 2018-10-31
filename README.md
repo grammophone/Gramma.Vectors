@@ -7,7 +7,7 @@ Dense vector operations become parallelized when the dimension exceeds a certain
 
 The above are summarized in the following UML diagram.
 
-![Vectors class diagram](http://s17.postimg.org/imk0wke4f/Vectors.png)
+![Vectors class diagram](https://raw.githubusercontent.com/grammophone/Grammophone.Vectors/master/Images/Vectors.png)
 
 For example usage, please take a look at the [first example](https://github.com/grammophone/Grammophone.Optimization/wiki/1.-A-simple-example) and the [second example](https://github.com/grammophone/Grammophone.Optimization/wiki/2.-Another-example) of the [Grammophone.Optimization](https://github.com/grammophone/Grammophone.Optimization) library which relies on this one.
 
